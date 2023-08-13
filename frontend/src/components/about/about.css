@@ -1,0 +1,27 @@
+.aboutVideoBox {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+}
+
+.aboutVideo {
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    width: 60%;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.175);
+}
+
+@media screen and (max-width: 600px) {
+    .aboutVideoBox {
+        height: 20px;
+        padding: 10vh 0vh;
+    }
+
+    .aboutVideoBox .aboutVideo {
+        width: 93%;
+    }
+}

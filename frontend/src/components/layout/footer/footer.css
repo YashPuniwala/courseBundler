@@ -1,0 +1,12 @@
+.banner {
+    margin-top: 12px;
+}
+
+.banner > a > svg {
+    color: white;
+    transition: "color 0.9s",
+}
+
+.banner > a > svg:hover {
+    color: yellow;
+}

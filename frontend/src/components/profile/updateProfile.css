@@ -1,0 +1,47 @@
+.updateProfile-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+}
+
+.updateProfile-container form {
+    padding: 4rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.updateProfile-container form .updateProfile-input {
+    font-size: 17px;
+    padding: 17px;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid silver;
+    margin: 7px 0 18px 0;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+  input[type="text"]:focus {
+    border: 1px solid #ffea20;
+  }
+
+  input[type="email"]:focus {
+    border: 1px solid #ffea20;
+  }
+
+  @media screen and (max-width: 600px) {
+    .updateProfile-container form {
+      padding: 2rem;
+      border-radius: 0%;
+      box-shadow: none;
+    }
+  }

@@ -1,0 +1,97 @@
+.container {
+    /* background-color: green; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    padding: 3rem;
+    width: 100%;
+}
+
+.homeImage {
+    height: 200px;
+    object-fit: contain;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    filter: drop-shadow(0 40px 10px rgba(0, 0, 0, 0.3))
+}
+
+.homeImage:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-30px); }
+    100% { transform: translateY(); }
+}
+
+.brandBanner > svg{
+    color: white;
+    font-size: 3rem;
+    transition: color 0.5s;
+}
+
+.brandBanner > svg:hover {
+    color: #FFEA20;
+}
+
+.homeVideoBox {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.homeVideo {
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    width: 60%;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.175);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .container2 {
+        margin: 40px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .homeVideoBox {
+        height: unset;
+        padding: 10vh 0vh;
+    }
+
+    .homeVideoBox > .homeVideo {
+        width: 98%;
+    }
+
+    .exploreBtn {
+        width: 140px;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container2 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

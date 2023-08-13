@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#light {
+  background-color: #f3ebf6;
+}
+
+#dark {
+  background-color: #212121;
+  color: white;
+}
+
+#dark .homeImage {
+  filter: drop-shadow(0 40px 10px rgba(0, 0, 0, 0.3))
+}
+
+#dark .homeImage {
+  filter: drop-shadow(0 40px 10px rgba(108, 104, 104, 0.3))
+}
+
+#light .signBtn {
+  color: orange;
+}
+
+#dark .signBtn {
+  color: #FFEA20;
+}
+
+#light .loginBtn {
+  color: orange;
+}
+
+#dark .loginBtn {
+  color: #FFEA20;
+}
+
+#light .forgotBtn {
+  color: black;
+}
+
+#dark .forgotBtn {
+  color: white;
+}
+
+#light .notFound-btn {
+  color: orange;
+}
+
+#dark .notFound-btn {
+  color: #FFEA20;
+}
+
+#light .paymentSuccess-btn {
+  color: black;
+}
+
+#dark .paymentSuccess-btn {
+  color: white;
+}
+
+#light .coursePage-btn {
+  color: black;
+}
+
+#dark .coursePage-btn {
+  color: white;
+}
+
+#light .profile-btn {
+  color: orange;
+}
+
+#dark .coursePage-btn {
+  color: white;
+}
+
+#light .profile-btn {
+  color: orange;
+}
+
+#dark .profile-btn {
+  color: #FFEA20;
+}
